@@ -1,0 +1,21 @@
+{
+	"color": "#ff043dff",
+	"description": "",
+	"display_name": "EULR Marz",
+	"display_name_bool": true,
+	"id": "character-1677466402.json",
+	"mirror_portraits": false,
+	"name": "Eule Marz",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 500,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://fukc_you.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

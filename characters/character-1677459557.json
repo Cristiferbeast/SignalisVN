@@ -1,0 +1,25 @@
+{
+	"color": "#ffcc1010",
+	"description": "A Star in the Sky",
+	"display_name": "STAR Seona",
+	"display_name_bool": true,
+	"id": "character-1677459557.json",
+	"mirror_portraits": false,
+	"name": "Star Seona",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Unmasked_cris.png"
+		},
+		{
+			"name": "Armored",
+			"path": "res://Masked_cris.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

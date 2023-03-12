@@ -1,0 +1,395 @@
+{
+	"events": [
+		{
+			"background": "res://image (6).png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're walking down the hallway when you see Marz."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hey hey! It's been a long day so have you found a date yet?"
+		},
+		{
+			"choice": "Yeah you",
+			"condition": ">=",
+			"definition": "1677467491-648",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh!"
+		},
+		{
+			"condition": ">=",
+			"definition": "1677467491-648",
+			"event_id": "dialogic_012",
+			"value": "5"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Know what yeah ill go out with you to the dance"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Damn GG, you got you a Ballerina GF\nYou Got the Eule Ending"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<=",
+			"definition": "1677467491-648",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um..\nSorry but no we did just meet after all"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Someone..But i can't remember who",
+			"condition": ">=",
+			"definition": "1677456119-233",
+			"event_id": "dialogic_011",
+			"value": "5"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She looks worried for you and grabs your hands in her's"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We will find them okay?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "-fini for now-\nyou got the Promise Ending"
+		},
+		{
+			"choice": "Adler",
+			"condition": ">=",
+			"definition": "1677456225-133",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ummm okay? \nNot going to judge what your into I guess"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What is going on here"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The new Gestalt says she likes you"
+		},
+		{
+			"condition": ">=",
+			"definition": "1677456225-133",
+			"event_id": "dialogic_012",
+			"value": "5"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He...Blushes?"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You two go back to your dorms, it is getting late"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah he just blushed, damn W girl\nYou got the Adler Ending "
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<=",
+			"definition": "1677456225-133",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mhm, and keep this idle chatter to yourselves"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "That Star",
+			"condition": ">=",
+			"definition": "1677460674-740",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Which Star?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Gestalt was just saying that she was attracted to you"
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh?"
+		},
+		{
+			"condition": ">=",
+			"definition": "1677460674-740",
+			"event_id": "dialogic_012",
+			"value": "5"
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well I like you too little Gestalt"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She leans over and gives you a kiss on the forehead. Before heading off"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good Job You Got the Tall Soldier\n-Star Ending-"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<=",
+			"definition": "1677460674-740",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cool for her"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She leaves without another word"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "The Commander",
+			"condition": ">=",
+			"definition": "1677633953-648",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Falke?\nThats not a great choice but you do you i guess."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "-Falke Ending-"
+		},
+		{
+			"choice": "Nah sadly noone.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Loser"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Damn you are kinda a loser\nlike how are you this bad at finding a date\neven I the damn Narrator am better then you\nYou get the Loser Ending GG Loser."
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1677612165.json",
+		"name": "Outro"
+	}
+}

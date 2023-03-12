@@ -1,0 +1,398 @@
+{
+	"events": [
+		{
+			"background": "res://Screenshot 2023-02-28 201435.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You arrive in the Classrooms"
+		},
+		{
+			"definition": "1677612298-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You look around and see a Tall Stoic Replika Staring at the Blackboard "
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I pray God will curse the writer, as the writer has cursed the world with this beautiful, stupendous creation"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She notices your presence and turns to look at you"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A Visitor? "
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1677635937",
+			"index": 0,
+			"name": "Flkrquestion"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Who are you?"
+		},
+		{
+			"choice": "....",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um.. Are you okay?"
+		},
+		{
+			"anchor_id": "anchor-1677635937",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Wouldn't you like to know Weather Lady?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677633953-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Interesting choice of words Gestalt\nYou speak quite freely for someone who is in my facility"
+		},
+		{
+			"choice": "Ariane, A New Gestalt to the Facility",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677633953-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you for getting straight to the point. "
+		},
+		{
+			"choice": "Elster?",
+			"condition": "",
+			"definition": "1677456119-233",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"definition": "1677456119-233",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How do you know that name?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You honestly don't. \nBut after saying that name something within feels familiar. "
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do not waste my time Gestalt"
+		},
+		{
+			"definition": "1677633953-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "State Your Purpose. "
+		},
+		{
+			"choice": "Just exploring the facility ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well i am sure you have been finding everything up to par"
+		},
+		{
+			"choice": "Looking for someone",
+			"condition": ">=",
+			"definition": "1677456119-233",
+			"event_id": "dialogic_011",
+			"value": "5"
+		},
+		{
+			"definition": "1677456119-233",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you need help with that I am sure the facilities staff will do there best to help you. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She seems to be thinking about something else\nAs if your question interested her in some way"
+		},
+		{
+			"choice": "Like I Need to Tell You. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677633953-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As the head of this facility you should have more respect when adressing me.\nHowever seeing as you are new I will forgive your comments for now. "
+		},
+		{
+			"choice": "I may have gotten lost...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677633953-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This facility is rather large\nThere are maps posted on our elevators, try to check one of those next time you find yourself lost. "
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Falke seems to be disinterested in talking to you further. \nYou figure it's about time that you leave"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677626086.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "ExitClass"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Where do you go?"
+		},
+		{
+			"choice": "Cafeteria",
+			"condition": "==",
+			"definition": "1677612276-366",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1677468370.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Library",
+			"condition": "==",
+			"definition": "1677612289-146",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1677468560.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Let's go back to The Dorm",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"condition": "!=",
+			"definition": "1677612276-366",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"condition": "!=",
+			"definition": "1677612289-146",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1677612165.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It is too early to sleep."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's too early to sleep. "
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1677468601.json",
+		"name": "Classrooms"
+	}
+}

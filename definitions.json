@@ -1,0 +1,86 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1677453407-600",
+			"name": "Adler",
+			"text": "A Adminstrative Replika that Serves the Nation. ",
+			"title": "ADLR",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1677453303-953",
+			"name": "Nation",
+			"text": "The Eusan Nation is a multiplanet state that you serve as a exploratory pilot for. ",
+			"title": "The Eusan Nation",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1677455747-265",
+			"name": "Elster",
+			"text": "Long Range Scouting Units Designed by the Nation. ",
+			"title": "LSTR Units",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1677467546-113",
+			"name": "Eule",
+			"text": "A Happy Little Cleaning and Maintance Replika, The Backbone of Eusan Society, ",
+			"title": "EULR",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1677456225-133",
+			"name": "Adler Simp",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1677460674-740",
+			"name": "Star Simp",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1677467491-648",
+			"name": "Eule Simp",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1677456119-233",
+			"name": "The Promise",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1677633953-648",
+			"name": "Falke Simp",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1677612276-366",
+			"name": "Cafeteria",
+			"type": 0,
+			"value": "1"
+		},
+		{
+			"id": "1677612289-146",
+			"name": "Library",
+			"type": 0,
+			"value": "1"
+		},
+		{
+			"id": "1677612298-918",
+			"name": "Classrooms",
+			"type": 0,
+			"value": "1"
+		}
+	]
+}

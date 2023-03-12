@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "A Lost Traveler",
+	"display_name": "Ariane",
+	"display_name_bool": true,
+	"id": "character-1677452771.json",
+	"mirror_portraits": false,
+	"name": "Ariane.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

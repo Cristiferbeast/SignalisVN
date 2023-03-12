@@ -1,0 +1,107 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1677452675.json",
+				"character-1677452771.json",
+				"character-1677459557.json",
+				"character-1677466402.json",
+				"character-1677626086.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+
+			],
+			"folders": {
+				"Glossery": {
+					"files": [
+						"1677453303-953",
+						"1677453407-600",
+						"1677455747-265",
+						"1677467546-113"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Values": {
+					"files": [
+						"1677456119-233",
+						"1677456225-133",
+						"1677460674-740",
+						"1677467491-648",
+						"1677633953-648"
+					],
+					"folders": {
+						"Traveled Rooms": {
+							"files": [
+								"1677612276-366",
+								"1677612289-146",
+								"1677612298-918"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Themes": {
+			"files": [
+				"default-theme.cfg",
+				"theme-1677540036.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+				"timeline-1677452743.json",
+				"timeline-1677468370.json",
+				"timeline-1677468560.json",
+				"timeline-1677468601.json",
+				"timeline-1677612165.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

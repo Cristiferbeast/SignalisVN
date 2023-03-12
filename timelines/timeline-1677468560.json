@@ -1,0 +1,469 @@
+{
+	"events": [
+		{
+			"background": "res://image (6).png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You arrive in the Library"
+		},
+		{
+			"definition": "1677612289-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entering into the Library you hear a heavy sigh, instinctively for some reason you hop behind a shelf and peak around it to see the source"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is no good at all, between the Gestalt landing here and the Commander's strange behavior lately the whole facility is in a buzz"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He puts his head in his hands"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Its not as though i hate her, its just..."
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "i want things to go back to how it was."
+		},
+		{
+			"choice": "How what was?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh.. you were listening"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..in the past this facility was different\nnow something is..."
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "...wrong"
+		},
+		{
+			"choice": "What is Wrong?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That is the thing...\n...I dont even know"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But that doesn't concern you why are you here "
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1677456119-233",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"anchor_id": "anchor-1677628632",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Damn that sounds boring. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course you would say that, you failure of a pilot. "
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So why are you bothering me?"
+		},
+		{
+			"anchor_id": "anchor-1677628632",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "You Hate Me?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh.. you were listening\nI... don't hate you\nI just...\nI dont know\nand it doesn't matter why are you here?"
+		},
+		{
+			"anchor_id": "anchor-1677628632",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Remain Silent",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You stay silent and the Replika sits in silence\nHaving said what he wanted the room is awkward for a bit until eventually your fatigue causes you to lean against the bookshelf \nA book tumbles and he looks over."
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who is there?\nOh it's you the Failed Pilot.\nWhy are you here?"
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1677628632",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "...Let me Help You",
+			"condition": ">=",
+			"definition": "1677456225-133",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You? Help Me?"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He chuckles for a second seemingly finding that funny before stopping himself."
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perhaps...You could help me "
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Regardless why are you here now?"
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"anchor_id": "anchor-1677628632",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1677628632",
+			"index": 0,
+			"name": "AdlerConvo2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Why are you here?"
+		},
+		{
+			"choice": "I like reading",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It is fun isn't it"
+		},
+		{
+			"choice": "Was hoping to see a KLBR",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kolibri are rather cool little friends aren't they"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He seems to be thinking fondly of someone "
+		},
+		{
+			"choice": "Why Not?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...of course why would i assume you have direction or reason to your actions."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well regardless, you have spent enough time here, go now and bother someone else"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "SceneSelection"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Where do you go?"
+		},
+		{
+			"choice": "Cafeteria",
+			"condition": "==",
+			"definition": "1677612276-366",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1677468370.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Classrooms",
+			"condition": "==",
+			"definition": "1677612298-918",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1677468601.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Let's go back to The Dorm",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"condition": "!=",
+			"definition": "1677612289-146",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"condition": "!=",
+			"definition": "1677612298-918",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1677612165.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It is too early to sleep."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's too early to sleep. "
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1677468560.json",
+		"name": "Library"
+	}
+}

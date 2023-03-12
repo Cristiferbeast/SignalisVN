@@ -1,0 +1,1029 @@
+{
+	"events": [
+		{
+			"background": "res://20230211180440_1.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After years deep within space, your voyage has come to an end. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Penrose has crashed down on a frozen planet and based off the damages it sustained from the crash you doubt your going to be able to use it to take back off again to find another planet."
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hm a lone Gestalt, and a Penrose Exploratory vessel, what brings you here."
+		},
+		{
+			"choice": "I crashed down on your planet by accident.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah so you're a terrible pilot, the Nation is glad that you aren't in the armed forces."
+		},
+		{
+			"choice": "What is it to you?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Rather rude response don't you think I was simply trying to help."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_025",
+			"extra": "",
+			"glossary_id": "1677453407-600",
+			"text": "An Administrative Replika that serves the Nation, they are also quite rude seemingly.",
+			"title": "[No Change]"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "So it seems to me you are stuck on my planet. Where is your Elster unit?"
+		},
+		{
+			"choice": "She's.. Not with us anymore.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_025",
+			"extra": "",
+			"glossary_id": "1677455747-265",
+			"text": "A Long Lost Friend",
+			"title": "Ellie"
+		},
+		{
+			"definition": "1677456119-233",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, I am sorry to hear that. "
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Elster, who is that. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_025",
+			"extra": "Perhaps we are forgetting something?",
+			"glossary_id": "1677455747-265",
+			"text": "[No Change]",
+			"title": "[No Change]"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, your Elster Unit, the one who.. Nevermind"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well then, I can't exactly leave you out in the cold can I. "
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Would you like to come in?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1677466655",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What? Uh its cold out and you wish to stay out here?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1677466655",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1677466655",
+			"index": 0,
+			"name": "S-23"
+		},
+		{
+			"background": "res://image (6).png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Welcome to S-23, our humble little facility. "
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Hm? Who is this Commander?"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is a lost Gestalt Pilot, who crashed on the planet."
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Oh, Well Nice to meet you im Seona!"
+		},
+		{
+			"choice": "Oh, Im Ariane!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh well lets try to be friends!"
+		},
+		{
+			"definition": "1677460674-740",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Like i asked. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh that was rude. "
+		},
+		{
+			"definition": "1677460674-740",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So for now we should find you a dorm to stay in. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Do you follow Adler?"
+		},
+		{
+			"choice": "Has Anyone Else Been Here?",
+			"condition": ">=",
+			"definition": "1677456119-233",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No? Not to my knowledge, lets just head to a dorm for you for now."
+		},
+		{
+			"definition": "1677456119-233",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You Follow Adler for a bit before coming to a Eule Dorm"
+		},
+		{
+			"event_id": "dialogic_025",
+			"extra": "You Miss Her",
+			"glossary_id": "1677455747-265",
+			"text": "[No Change]",
+			"title": "[No Change]"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "anchor-1677468252",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Follow Adler",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You Follow Adler for a bit before coming to a Eule Dorm"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "anchor-1677468252",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "\"Can I Go to Your Dorm\"",
+			"condition": ">=",
+			"definition": "1677456225-133",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You want to what? *blushes*"
+		},
+		{
+			"definition": "1677456225-133",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm sorry that is not possible, but let me lead you to a place to stay for now. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He leads you to a dorm room, before exiting, within you see a small little replika"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "anchor-1677468252",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "\"Can I Go to the STAR Dorm?\"",
+			"condition": ">=",
+			"definition": "1677460674-740",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You want to what?!"
+		},
+		{
+			"definition": "1677460674-740",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No that is not possible, let me lead you to a place you can stay for now."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677459557.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He leads you to a dorm room, before exiting, within you see a small little replika"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "anchor-1677468252",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
+		},
+		{
+			"background": "res://Screenshot 2023-02-28 210315.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1677468252",
+			"index": 0,
+			"name": "EuleDorm"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! A New Gestalt! Its been awhile since we had one of you here!"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "I'm Marz,!"
+		},
+		{
+			"choice": "Hi I'm Ariane",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Eule gives you a big smile before jumping up on her bed. "
+		},
+		{
+			"event_id": "dialogic_025",
+			"extra": "Kind Hearted Replikas.",
+			"glossary_id": "1677467546-113",
+			"text": "[No Change]",
+			"title": "Eule"
+		},
+		{
+			"definition": "1677467491-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Yeah I've already introduced myself enough",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Eule seems to ignore your comment, before jumping up on her bed."
+		},
+		{
+			"definition": "1677467491-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oke, you come at an interesting time, its almost time for the Facility wide prom! "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(totally not a stolen idea from Monster Prom)"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everyone is busy running around trying to find a date to take, Hopefully you can find one too!"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Do you have anyone in mind so far?"
+		},
+		{
+			"choice": "Adler is kinda cute i guess",
+			"condition": ">=",
+			"definition": "1677456225-133",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"definition": "1677467491-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh...That is uh a Choice?"
+		},
+		{
+			"choice": "...there is someone i miss",
+			"condition": ">=",
+			"definition": "1677456119-233",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Eule seems curious"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who? "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You try and explain that you do not know, \nthe Eule seems concerned for you and tries to change the topic seemingly not wanting to bring up hurt feelings"
+		},
+		{
+			"choice": "You're cute!",
+			"condition": ">=",
+			"definition": "1677467491-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"definition": "1677467491-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Eule Smiles"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awww thank you!"
+		},
+		{
+			"choice": "I thought the STAR was cute",
+			"condition": ">=",
+			"definition": "1677460674-740",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Stars are really nice!"
+		},
+		{
+			"choice": "Not Really Anyone So Far",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm sure you will find someone!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well Regardless Your going to need to get them to ask you to the Prom, which is only a few days away! So good luck!"
+		},
+		{
+			"condition": ">=",
+			"definition": "1677467491-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And just because your cute doesn't mean ill ask you just yet <3 "
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Location Select"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "For now, I think you should take a look around the facility, where do you want to go?"
+		},
+		{
+			"choice": "I'd Like to Stay Here with You <3",
+			"condition": ">=",
+			"definition": "1677467491-648",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! You're such a flirt, but i have work, perhaps later we can hang out?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "I wanna see the Classrooms",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1677468601.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "I would like to see the Library",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1677468560.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "I would like to see the Cafeteria",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1677466402.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1677468370.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1677452743.json",
+		"name": "Intro"
+	}
+}
