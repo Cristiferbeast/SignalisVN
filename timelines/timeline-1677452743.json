@@ -8,13 +8,25 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "After years deep within space, your voyage has come to an end. "
+			"text": "After seemingly countless cycles, your voyage has finally come to an end.."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "The Penrose has crashed down on a frozen planet and based off the damages it sustained from the crash you doubt your going to be able to use it to take back off again to find another planet."
+			"text": "The Penrose has sustained heavy damage from the crash landing, you doubt it will ever sail the stars again"
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A lone survivor…Unknown if Officer or Replika."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "An unknown voice emerged from behind, causing you to jerk back in shock. \nYou braced yourself in a panicked manner, unaware if the voice belonged to a friend or foe"
 		},
 		{
 			"animation": "slide_in_left.gd",
@@ -38,15 +50,52 @@
 		},
 		{
 			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A crashed Penrose Exploratory vessel as well…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The figure walked past you, seemingly already forgotten about your existence.\nit’s almost as if they cared more about writing down a report than your wellbeing.\nThe figure turns around, despite the golden visor obscuring their face, you can feel their eyes locking on yours."
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Be at ease, you have nothing to fear. Assuming you are a loyal member of the Nation.”"
+		},
+		{
+			"character": "character-1677452675.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Hm a lone Gestalt, and a Penrose Exploratory vessel, what brings you here."
+			"question": "Now, state your reason for being here."
 		},
 		{
-			"choice": "I crashed down on your planet by accident.",
+			"choice": "Our ship’s reactor started failing, I-we crashed here a few cycles after it finally died.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You looked down on the ground, trying to avoid looking at the smoldering wreckage of the Penrose. \nThe memory of the crash still fresh in your mind."
+		},
+		{
+			"character": "character-1677452675.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your role in the crash has been duly noted. This mistake will be on your permanent record."
+		},
+		{
+			"choice": "What the hell is your problem?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -56,20 +105,13 @@
 			"character": "character-1677452675.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah so you're a terrible pilot, the Nation is glad that you aren't in the armed forces."
+			"text": "Calm yourself, confronting me does nothing for your case."
 		},
 		{
-			"choice": "What is it to you?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"character": "character-1677452675.json",
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Rather rude response don't you think I was simply trying to help."
+			"text": "You clench your fist, trying to hold back on punching the figure in front of you. \nThey’re just like the others, another one who knows nothing about you yet still Judges"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -88,10 +130,10 @@
 
 			],
 			"portrait": "",
-			"question": "So it seems to me you are stuck on my planet. Where is your Elster unit?"
+			"question": "Where is the Elster unit assigned to you?"
 		},
 		{
-			"choice": "She's.. Not with us anymore.",
+			"choice": "The crash…She didn’t make it.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -116,7 +158,7 @@
 			"character": "character-1677452675.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Oh, I am sorry to hear that. "
+			"text": "...I see"
 		},
 		{
 			"definition": "1677456225-133",
