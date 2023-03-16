@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How long has it been now\nThat you've let yourself just forget\n\nA day so long ago,\nand words you meant to say. \n\nYou reach out for answers,\nyet find only questions\n\nA memory plays over in your head\nbut was it ever yours to begin with?\n\nShe sat there humming your song as her machinery failed\nHer last thoughts of a dance long gone, and of a song she can no longer sing\nslowly the black erased her thoughts, \nbut the notes persisted, a stubborn melody that refused to fold.\n--- may have been alone in her final moments, but the warmth of this melody reminded her,\neven now, she was loved\n\nYet here you are daring to forget its notes\nYou've forgotten the tune to a song that you wrote\n\nFor that you are..\nA Selfish Monster"
+		},
+		{
+			"definition": "1677456119-233",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You've reached the new end. Thanks for Playing!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1678926543.json",
+		"name": "Nightmare 1"
+	}
+}
