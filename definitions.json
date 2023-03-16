@@ -31,6 +31,14 @@
 			"text": "A Happy Little Cleaning and Maintance Replika, The Backbone of Eusan Society, ",
 			"title": "EULR",
 			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1678929071-648",
+			"name": "Promise",
+			"text": "You Dislike this Word",
+			"title": "Promise",
+			"type": 1
 		}
 	],
 	"variables": [
@@ -81,6 +89,12 @@
 			"name": "Classrooms",
 			"type": 0,
 			"value": "1"
+		},
+		{
+			"id": "1678930059-787",
+			"name": "Arar Simp",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }
