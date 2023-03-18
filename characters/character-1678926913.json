@@ -1,13 +1,13 @@
 {
 	"color": "#ffff0000",
 	"description": "Should not be inside your walls. Yet she is.",
-	"display_name": "Ara",
+	"display_name": "Ara Bolt",
 	"display_name_bool": true,
 	"id": "character-1678926913.json",
 	"mirror_portraits": false,
 	"name": "Arar Bolt",
-	"nickname": "",
-	"nickname_bool": false,
+	"nickname": "Bolt",
+	"nickname_bool": true,
 	"offset_x": 0,
 	"offset_y": 0,
 	"portraits": [
