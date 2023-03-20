@@ -1,4 +1,4 @@
-{
+{{
 	"events": [
 		{
 			"background": "res://20230211180440_1.jpg",
@@ -328,7 +328,7 @@
 
 			],
 			"portrait": "Default",
-			"question": "Oh, Well Nice to meet you im Seona!"
+			"question": "Oh, Well Nice to meet you im Quick!"
 		},
 		{
 			"choice": "Oh, Im Ariane!",
@@ -499,7 +499,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You Follow Adler for a bit before coming to a Dorm, a small sign indicates that it is for the Eule Dorm."
+			"text": "You Follow Adler for a bit before coming to a Eule Dorm"
 		},
 		{
 			"animation": "[Default]",
