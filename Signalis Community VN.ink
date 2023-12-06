@@ -383,6 +383,7 @@ You Okay? #speaker: Adler
 *["It's been real"]
     You throw up your hands and exit the mines, who the fuck knows what happened down there. And honestly who really cares you aint paid enough for all that #speaker: 
     You also do a backflip, its badass.
+    Also Adler Probably Explodes Cause he is a L 
     ~adlerLove--
     ->END
 -
